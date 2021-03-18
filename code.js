@@ -3,7 +3,7 @@ function changeAvatar() {
     if (isNaN(parseInt(ava_num))) {
           ava_num = localStorage.getItem("avatar");
     } else {
-        num = parseInt(ava_num);
+        let num = parseInt(ava_num);
         if (num > 34) {
             ava_num = localStorage.getItem("avatar");
         }
